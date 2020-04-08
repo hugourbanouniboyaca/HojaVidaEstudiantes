@@ -41,7 +41,17 @@ input{
   text-align:center;
 }
 /*Estilo del campo comentario y su posición (ARIZA ROJAS NICOLÁS ALBEIRO)*/
-
+#comentario{
+float: left;
+margin-left: 530px;
+margin-top: 30px;
+}
+textarea{
+  float: right;
+  margin-top: 30px;
+  margin-right: 492px;
+  border-color:black;
+}
 
 /*Estilo del botón y su posición (MARTÍNEZ PULIDO SERGIO IVÁN)*/
 
