@@ -14,8 +14,32 @@ font-style:Verdana;
 }
 
 /*Estilo de la información básica y su posición (CASTRO LÓPEZ JHON SEBASTIÁN)*/
+.seccion_2{
 
+  border: 1px solid black;
+  display: inline-block ;
+  text-align: left;
+  padding: 7px;
+  max-width: 350px;
+  max-height: 160px;
+  min-width: 350px;
+  min-height: 160px;
 
+}
+input{
+  margin-bottom: 7px;
+}
+.hobies_items{
+  margin-left: 42%;
+  display: block;
+}
+#name{
+  margin-left: 24%;
+}
+.InformacionBasica{
+
+  text-align:center;
+}
 /*Estilo del campo comentario y su posición (ARIZA ROJAS NICOLÁS ALBEIRO)*/
 
 

@@ -11,32 +11,49 @@
         <form action="index.html" method="GET">
             <div class="seccion_foto">
                 <img src="https://sistemas.com/termino/wp-content/uploads/Usuario-Icono.jpg" alt="img_User.jpg" width="120">
-              
+
             </div>
             <div class="seccion_correo">
                 <p>Correo electronico</p>
               </div>
-            <div class="seccion_2">
-                <div class="content2">
-                    <label for="name">Nombre:</label>
-                    <input id="name" name="name" type="text" value="Nombre aqui" required>
-                </div>
-                <div class="content2">
-                    <label for="date">Fecha de cumpleaños:</label>
-                    <input id="date" name="date" type="date" value="2020-12-12" required>
-                </div>
-                <div class="content2">
-                    <label for="hobies1">Hobies:</label>
-                    <span id="hobies" class="hobies">
-                        <span>1.</span>
-                        <input id="hobies1" name="hobies1" type="text" value="hobie1" required>
-                        <span>2.</span>
-                        <input id="hobies2" name="hobies2" type="text" value="hobie2" required>
-                        <span>3.</span>
-                        <input id="hobies3" name="hobies3" type="text" value="hobie3" required>
-                    </span>
-                </div>
+
+            <div class="InformacionBasica">
+              <div class="seccion_2">
+                  <div class="content_nombre">
+                      <label for="name">Nombre:</label>
+                      <input id="name" name="name" type="text" placeholder="Nombre" required>
+                  </div>
+                  <div class="content_Cumpleaños">
+                      <label for="date">Fecha de cumpleaños:</label>
+                      <input id="date" name="date" type="date" value="2020-12-12" required>
+                  </div>
+
+                  <div class="content_hobies">
+                      <label for="hobies1">Hobies:</label>
+
+                      <div class="hobies_items">
+
+                          <div class="Item_1">
+                            <span>1.</span>
+                            <input id="hobies1" name="hobies1" type="text" placeholder="Hobie1"  required>
+                          </div>
+                          <div class="Item_2">
+                            <span>2.</span>
+                            <input id="hobies2" name="hobies2" type="text" placeholder="Hobie2" required>
+                          </div>
+                          <div class="Item_3">
+                            <span>3.</span>
+                            <input id="hobies3" name="hobies3" type="text" placeholder="Hobie3" required>
+                          </div>
+
+
+                      </div>
+                  </div>
+              </div>
             </div>
+
+
+
             <div class="seccion_3">
                 <label for="comment">Comentario:</label>
                 <span class="sec_comment">
