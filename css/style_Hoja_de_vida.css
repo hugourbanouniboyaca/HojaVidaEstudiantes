@@ -66,6 +66,15 @@ textarea{
 }
 /*Estilo del botón y su posición (MARTÍNEZ PULIDO SERGIO IVÁN)*/
 
+#Publicar_button{
+  float: right;
+  width: 73%;
+  color: white;
+  background-color: #579CD7;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+
 
 /*Estilo del borde externo y su transición (CONTRERAS APARICIO ÓSCAR GERARDO)*/
 
