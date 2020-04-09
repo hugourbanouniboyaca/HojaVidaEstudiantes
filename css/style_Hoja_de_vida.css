@@ -41,18 +41,29 @@ input{
   text-align:center;
 }
 /*Estilo del campo comentario y su posición (ARIZA ROJAS NICOLÁS ALBEIRO)*/
-#comentario{
-float: left;
-margin-left: 530px;
-margin-top: 30px;
-}
-textarea{
-  float: right;
-  margin-top: 30px;
-  margin-right: 492px;
-  border-color:black;
+.Comentarios_Seccion{
+  display: flex;
+  padding: 0;
+  margin-top: 15px;
+  justify-content: center;
 }
 
+.Comentarios_{
+
+  max-width: 350px;
+  max-height: 160px;
+  min-width: 360px;
+  min-height: 160px;
+}
+#comentario{
+float: left;
+}
+
+textarea{
+  width: 73%;
+  height: 65%;
+  border-color: black;
+}
 /*Estilo del botón y su posición (MARTÍNEZ PULIDO SERGIO IVÁN)*/
 
 
