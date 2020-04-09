@@ -50,9 +50,9 @@ input{
 
 .Comentarios_{
 
-  max-width: 350px;
+  max-width: 370px;
   max-height: 160px;
-  min-width: 360px;
+  min-width: 370px;
   min-height: 160px;
 }
 #comentario{
@@ -60,7 +60,7 @@ float: left;
 }
 
 textarea{
-  width: 73%;
+  width: 74.5%;
   height: 65%;
   border-color: black;
 }
