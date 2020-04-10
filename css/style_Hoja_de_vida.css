@@ -103,6 +103,9 @@ box-shadow: 0px 0px 10px 10px #DF0101;
 
 
 /*Transición de la información básica en el evento hover (ALARCÓN ALARCÓN CARLOS MANUEL)*/
+.seccion_2:hover {
+  box-shadow: 0 0 20px rgba(0,0,0,.8);
+}
 
 
 /*Transición del botón en el evento hover (HOYOS PASTRANA EDIER ALEXIS)*/
