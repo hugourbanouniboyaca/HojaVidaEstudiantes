@@ -1,6 +1,7 @@
 /*Estilo de la imagen y su posición (GÓMEZ MORENO BLANCA JANETH)*/
 
 
+
 /*Estilo del correo electrónico y su posición (FONSECA CAMARGO ÓSCAR IVÁN*/
 .seccion_correo{
 text-align: center;
@@ -76,7 +77,20 @@ textarea{
 }
 
 /*Estilo del borde externo y su transición (CONTRERAS APARICIO ÓSCAR GERARDO)*/
-
+.content{
+  border: 1px solid;
+  border-bottom-color: #3366ff;
+  border-right-color: #004d00;
+  border-left-color: #004d00;
+  margin: auto;
+  width: 400px;
+  height: 550px;
+  transition-property: border-radius;
+  transition-duration: 2s;
+}
+.content:hover {
+  border-radius: 20px;
+}
 
 /*Transición de la imagen en el evento hover (VALERO GÁMEZ DAVID ESTEBAN)*/
 
