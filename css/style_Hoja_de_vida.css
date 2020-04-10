@@ -94,6 +94,13 @@ textarea{
 
 /*Transición de la imagen en el evento hover (VALERO GÁMEZ DAVID ESTEBAN)*/
 
+img:hover{
+  transform:scale(0.7);
+  border-style:50%;
+box-shadow: 0px 0px 10px 10px #DF0101;
+
+}
+
 
 /*Transición de la información básica en el evento hover (ALARCÓN ALARCÓN CARLOS MANUEL)*/
 
