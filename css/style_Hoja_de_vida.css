@@ -76,12 +76,6 @@ textarea{
   outline: none;
 }
 
-#Publicar_button:hover{
-  background-color: #57D761;
-  box-shadow: #464646 2px 2px 2px;
-  color: black;
-}
-
 /*Estilo del borde externo y su transición (CONTRERAS APARICIO ÓSCAR GERARDO)*/
 .content{
   border: 1px solid;
