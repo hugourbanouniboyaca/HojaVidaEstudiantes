@@ -1,5 +1,12 @@
 /*Estilo de la imagen y su posición (GÓMEZ MORENO BLANCA JANETH)*/
-
+.seccion_foto{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 10px;
+ width: 34%;
+ border: 1px solid black;
+}
 
 
 /*Estilo del correo electrónico y su posición (FONSECA CAMARGO ÓSCAR IVÁN*/
