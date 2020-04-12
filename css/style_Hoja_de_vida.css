@@ -92,7 +92,7 @@ textarea{
   border-left-color: #004d00;
   margin: auto;
   width: 400px;
-  height: 550px;
+  height: 600px;
   transition-property: border-radius;
   transition-duration: 2s;
 }
