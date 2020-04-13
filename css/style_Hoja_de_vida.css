@@ -1,4 +1,12 @@
 /*Estilo de la imagen y su posición (GÓMEZ MORENO BLANCA JANETH)*/
+.seccion_foto{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 10px;
+ width: 34%;
+ border: 1px solid black;
+}
 
 
 /*Estilo del correo electrónico y su posición (FONSECA CAMARGO ÓSCAR IVÁN*/
@@ -65,6 +73,15 @@ textarea{
   border-color: black;
 }
 /*Estilo del botón y su posición (MARTÍNEZ PULIDO SERGIO IVÁN)*/
+#Publicar_button{
+  float: right;
+  width: 73%;
+  color: white;
+  background-color: #579CD7;
+  margin-right: 10px;
+  border-radius: 8px;
+  outline: none;
+}
 
 #Publicar_button{
   float: right;
@@ -77,12 +94,40 @@ textarea{
 
 
 /*Estilo del borde externo y su transición (CONTRERAS APARICIO ÓSCAR GERARDO)*/
-
+.content{
+  border: 1px solid;
+  border-bottom-color: #3366ff;
+  border-right-color: #004d00;
+  border-left-color: #004d00;
+  margin: auto;
+  width: 400px;
+  height: 600px;
+  transition-property: border-radius;
+  transition-duration: 2s;
+}
+.content:hover {
+  border-radius: 20px;
+}
 
 /*Transición de la imagen en el evento hover (VALERO GÁMEZ DAVID ESTEBAN)*/
 
+.seccion_foto:hover{
+  transform:scale(0.7);
+  border-style:50%;
+box-shadow: 0px 0px 10px 10px #DF0101;
+
+}
+
 
 /*Transición de la información básica en el evento hover (ALARCÓN ALARCÓN CARLOS MANUEL)*/
+.seccion_2:hover {
+  box-shadow: 0 0 20px rgba(0,0,0,.8);
+}
 
 
 /*Transición del botón en el evento hover (HOYOS PASTRANA EDIER ALEXIS)*/
+#Publicar_button:hover{
+  background-color: #57D761;
+  box-shadow: #464646 2px 2px 2px;
+  color: black;
+}
